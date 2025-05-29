@@ -30,14 +30,15 @@ def user_purchase():
   else:
         print(f"Product '{user_purchase_item.capitalize()}' not found in our catalog.\n")
 
-print("""
+
+while True:
+ print("""
 Welcome to the Smart Grocery Store Assistant
 1. View Products
 2. Add/Update Product
 3. Purchase Items
 4. Exit
 """)
-while True:
   user_number = int(input("Enter the number:"))
   if user_number == 1:
     product_catalog()
