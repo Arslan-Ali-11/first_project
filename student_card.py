@@ -22,7 +22,7 @@ for i in range(1,6):
   student_data[student_name]["average"] = average
 
   if average >= 90:
-    grade3 = "A"
+    grade = "A"
   elif average >= 80:
     grade = "B"
   elif average >= 70:
